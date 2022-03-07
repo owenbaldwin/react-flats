@@ -1,4 +1,5 @@
 import { React } from "react";
+import { Flat } from "./flat";
 
 class App extends Component {
 
@@ -7,7 +8,7 @@ class App extends Component {
     return (
       <div>
         <div className="left-scene">
-
+          <Flat />
         </div>
         <div className="right-scene">
 
